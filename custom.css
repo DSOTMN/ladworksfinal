@@ -1,0 +1,97 @@
+body {
+  background: #cccccc;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background: #333333;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.logo{
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#title-small {
+  color: #ffffff;
+  padding-top: 0;
+  margin-top: 0;
+  display: block;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+
+}
+
+.navbar h3{
+  font-size: 25px;
+  color: white;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.table {
+  border-bottom: 1px white solid;
+  border-top: 1px white solid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.table td{
+  text-align: center;
+}
+
+.btn a:hover{
+  color: #ccc;
+  text-decoration: none;
+}
+.btn a{
+  color: #fff;
+}
+
+
+/* Bounce Out Efekat */
+.hvr-bounce-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-out:hover, .hvr-bounce-out:focus, .hvr-bounce-out:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+#user-icon {
+  font-size: 3em;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+  display: inline-block;
+  position: relative;
+}
+
+.contact-us {
+  padding-top: 30px;
+  padding-bottom: 0;
+  }
